@@ -23,7 +23,7 @@ None, None  # empty input
 
 First considerate the simplist situation,
 
-```python
+```text
 1->2->3
 
 # add a head node will make things easier,
@@ -50,7 +50,7 @@ while cur:
 So what's happen when there are duplicated elements?
 Short to say, we just need to find a suitable location for cur to points to.
 
-```
+```text
 # 0 is an extra added node 
 0->1->1->2
 
@@ -102,7 +102,7 @@ while cur:
 
 Take special things in to consideration.
 
-```python
+```text
 0->1->2->2
 
 inner_cur = cur
