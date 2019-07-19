@@ -1,0 +1,82 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	test.cpp	/^class A$/;"	c	file:
+BaseSolution	6_printListFromTailToHead.cpp	/^class BaseSolution$/;"	c	file:
+ListNode	offerhelper.h	/^    ListNode(int x) : val(x), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	offerhelper.h	/^struct ListNode$/;"	s
+ListNode	offerhelper.py	/^class ListNode:$/;"	c
+Offer	offerhelper.h	/^namespace Offer$/;"	n
+Solution	18_deleteDuplication.py	/^class Solution:$/;"	c
+Solution	3_duplicate.py	/^class Solution:$/;"	c
+Solution	5_replaceBlank.cpp	/^class Solution {$/;"	c	file:
+Solution	5_replaceBlank.py	/^class Solution:$/;"	c
+Solution	6_printListFromTailToHead.cpp	/^class Solution: public virtual BaseSolution$/;"	c	file:
+Solution	6_printListFromTailToHead.py	/^class Solution:$/;"	c
+Solution1	6_printListFromTailToHead.cpp	/^class Solution1: public virtual BaseSolution$/;"	c	file:
+Solution1	6_printListFromTailToHead.py	/^class Solution1:$/;"	c
+Solution2	6_printListFromTailToHead.cpp	/^class Solution2: public virtual BaseSolution$/;"	c	file:
+Solution2	6_printListFromTailToHead.py	/^class Solution2:$/;"	c
+Solution3	6_printListFromTailToHead.py	/^class Solution3:$/;"	c
+TMP	tmp.h	/^namespace TMP$/;"	n
+TestCase	5_replaceBlank.cpp	/^typedef std::tuple<char *, const char *, int> TestCase;$/;"	t	file:
+__binarySearchRecursion	search.cpp	/^int __binarySearchRecursion(std::vector<T> &vec, T target, int l, int r)$/;"	f
+__init__	offerhelper.py	/^    def __init__(self, x):$/;"	m	class:ListNode
+__merge	sorting.cpp	/^void __merge(vector<T> &vec, int l, int mid, int r)$/;"	f
+__mergeSort	sorting.cpp	/^void __mergeSort(vector<T> &vec, int l, int r)$/;"	f
+__partition	sorting.cpp	/^int __partition(std::vector<T> &vec, int l, int r)$/;"	f
+__quikcSort	sorting.cpp	/^void __quikcSort(std::vector<T> &vec, int l, int r)$/;"	f
+assertTest	5_replaceBlank.cpp	/^void assertTest(char *in, const char *out, int length)$/;"	f
+benchMark	6_printListFromTailToHead.cpp	/^void benchMark()$/;"	f
+bench_mark	6_printListFromTailToHead.py	/^def bench_mark():$/;"	f
+binarySearch	search.cpp	/^int binarySearch(std::vector<T> vec, T target)$/;"	f
+binarySearchRecursion	search.cpp	/^int binarySearchRecursion(std::vector<T> &vec, T target)$/;"	f
+convert_linked_list_to_list	offerhelper.py	/^def convert_linked_list_to_list(list_node):$/;"	f
+createLinkedList	offerhelper.h	/^    ListNode *createLinkedList(std::vector<int> &vec) $/;"	f	namespace:Offer
+create_linked_list	offerhelper.py	/^def create_linked_list(li):$/;"	f
+deleteDuplication	18_deleteDuplication.py	/^    def deleteDuplication(self, pHead):$/;"	m	class:Solution
+dup	3_duplicate.py	/^    dup = [0]$/;"	v	class:Solution
+duplicate	3_duplicate.cpp	/^bool duplicate(int numbers[], int length, int* duplication)$/;"	f
+duplicate	3_duplicate.py	/^    def duplicate(self, numbers, duplication):$/;"	m	class:Solution
+f1	test.cpp	/^    void f1() { }$/;"	f	class:A
+f2	test.cpp	/^    virtual void f2() {}$/;"	f	class:A
+find	4_find.cpp	/^bool find(int target, std::vector<vector<int> > &array)$/;"	f
+genRandomVector	offerhelper.h	/^    std::vector<int> genRandomVector(int n=10, int l=0, int r=10)$/;"	f	namespace:Offer
+gen_random_list	offerhelper.py	/^def gen_random_list(size=10, l=0, r=10):$/;"	f
+head	offerhelper.py	/^    head = create_linked_list([1, 2, 3])$/;"	v
+helper	6_printListFromTailToHead.py	/^    def helper(self, listNode, li):$/;"	m	class:Solution2
+i	tmp.h	/^    static int i;$/;"	m	namespace:TMP
+insertionSort	sorting.cpp	/^void insertionSort(std::vector<T> &vec, int l, int r)$/;"	f
+li	offerhelper.py	/^    li = convert_linked_list_to_list(head)$/;"	v
+li	offerhelper.py	/^    li = gen_random_list()$/;"	v
+li	tmp.py	/^li = [1, 2, 3, 4, 5]$/;"	v
+main	3_duplicate.cpp	/^int main(int argc, char **argv)$/;"	f
+main	4_find.cpp	/^int main(int argc, char **argv)$/;"	f
+main	5_replaceBlank.cpp	/^int main(int argc, const char *argv[])$/;"	f
+main	6_printListFromTailToHead.cpp	/^int main(int argc, char **argv)$/;"	f
+main	offerhelper.cpp	/^int main(int argc, const char *argv[])$/;"	f
+main	search.cpp	/^int main(int argc, const char *argv[])$/;"	f
+main	sorting.cpp	/^int main(int argc, const char *argv[])$/;"	f
+main	test.cpp	/^int main(int argc, const char *argv[])$/;"	f
+main	tmp.cpp	/^int main(int argc, const char *argv[])$/;"	f
+mergeSort	sorting.cpp	/^void mergeSort(vector<T> &vec)$/;"	f
+next	offerhelper.h	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode
+printLinkedList	offerhelper.h	/^    void printLinkedList(ListNode *head)$/;"	f	namespace:Offer
+printListFromTailToHead	6_printListFromTailToHead.py	/^    def printListFromTailToHead(self, listNode):$/;"	m	class:Solution
+printListFromTailToHead	6_printListFromTailToHead.py	/^    def printListFromTailToHead(self, listNode):$/;"	m	class:Solution1
+printListFromTailToHead	6_printListFromTailToHead.py	/^    def printListFromTailToHead(self, listNode):$/;"	m	class:Solution2
+printListFromTailToHead	6_printListFromTailToHead.py	/^    def printListFromTailToHead(self, listNode):$/;"	m	class:Solution3
+printVec	offerhelper.h	/^    void printVec(std::vector<T> vec)$/;"	f	namespace:Offer
+quickSort	sorting.cpp	/^void quickSort(std::vector<T> &vec)$/;"	f
+replaceSpace	5_replaceBlank.cpp	/^	void replaceSpace(char *str,int length) {$/;"	f	class:Solution
+replaceSpace	5_replaceBlank.py	/^    def replaceSpace(self, s):$/;"	m	class:Solution
+res	5_replaceBlank.py	/^    res = Solution().replaceSpace('hello world')$/;"	v	class:Solution
+ret	3_duplicate.py	/^    ret = Solution().duplicate([2, 3, 1, 0, 2, 5, 3], dup)$/;"	v	class:Solution
+staticFunc	tmp.h	/^static int staticFunc()$/;"	f
+test	18_deleteDuplication.py	/^def test(solution):$/;"	f
+test	6_printListFromTailToHead.cpp	/^void test(unique_ptr<BaseSolution> pSolution)$/;"	f
+test	6_printListFromTailToHead.py	/^def test(solution):$/;"	f
+val	offerhelper.h	/^    int val;$/;"	m	struct:ListNode
