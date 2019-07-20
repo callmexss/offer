@@ -14,6 +14,14 @@ class TreeNode:
         self.right = None
 
 
+class TreeLinkNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+        self.next = None
+
+
 # Functions
 def gen_random_list(size=10, l=0, r=10):
     assert l <= r
