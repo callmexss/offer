@@ -6,16 +6,28 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 A	test.cpp	/^class A$/;"	c	file:
 BaseSolution	6_printListFromTailToHead.cpp	/^class BaseSolution$/;"	c	file:
+GetNext	8_getNext.py	/^    def GetNext(self, pNode):$/;"	m	class:Solution
 ListNode	offerhelper.h	/^    ListNode(int x) : val(x), next(nullptr) {}$/;"	f	struct:ListNode
 ListNode	offerhelper.h	/^struct ListNode$/;"	s
 ListNode	offerhelper.py	/^class ListNode:$/;"	c
+NumberOf1	15_numberOf1.py	/^    def NumberOf1(self, n):$/;"	m	class:Solution
 Offer	offerhelper.h	/^namespace Offer$/;"	n
+SingleTon	1_singleton.cpp	/^    SingleTon() {}                 \/\/ Constructor? (the {} brackets) are needed here.$/;"	f	class:SingleTon	file:
+SingleTon	1_singleton.cpp	/^class SingleTon$/;"	c	file:
+Solution	12_hasPath.py	/^class Solution:$/;"	c
+Solution	13_movingCount.py	/^class Solution:$/;"	c
+Solution	15_numberOf1.py	/^class Solution:$/;"	c
 Solution	18_deleteDuplication.py	/^class Solution:$/;"	c
+Solution	20_isNumeric.py	/^class Solution:$/;"	c
+Solution	21_reOrderArray.py	/^class Solution:$/;"	c
 Solution	3_duplicate.py	/^class Solution:$/;"	c
 Solution	5_replaceBlank.cpp	/^class Solution {$/;"	c	file:
 Solution	5_replaceBlank.py	/^class Solution:$/;"	c
 Solution	6_printListFromTailToHead.cpp	/^class Solution: public virtual BaseSolution$/;"	c	file:
 Solution	6_printListFromTailToHead.py	/^class Solution:$/;"	c
+Solution	7_reConstructBinaryTree.py	/^class Solution:$/;"	c
+Solution	8_getNext.py	/^class Solution:$/;"	c
+Solution1	21_reOrderArray.py	/^class Solution1:$/;"	c
 Solution1	6_printListFromTailToHead.cpp	/^class Solution1: public virtual BaseSolution$/;"	c	file:
 Solution1	6_printListFromTailToHead.py	/^class Solution1:$/;"	c
 Solution2	6_printListFromTailToHead.cpp	/^class Solution2: public virtual BaseSolution$/;"	c	file:
@@ -23,17 +35,31 @@ Solution2	6_printListFromTailToHead.py	/^class Solution2:$/;"	c
 Solution3	6_printListFromTailToHead.py	/^class Solution3:$/;"	c
 TMP	tmp.h	/^namespace TMP$/;"	n
 TestCase	5_replaceBlank.cpp	/^typedef std::tuple<char *, const char *, int> TestCase;$/;"	t	file:
+TreeLinkNode	offerhelper.py	/^class TreeLinkNode:$/;"	c
+TreeNode	offerhelper.py	/^class TreeNode:$/;"	c
+TreeTraverse	offerhelpertest.py	/^class TreeTraverse(unittest.TestCase):$/;"	c
 __binarySearchRecursion	search.cpp	/^int __binarySearchRecursion(std::vector<T> &vec, T target, int l, int r)$/;"	f
+__in_order	offerhelper.py	/^def __in_order(root, ret):$/;"	f	file:
 __init__	offerhelper.py	/^    def __init__(self, x):$/;"	m	class:ListNode
+__init__	offerhelper.py	/^    def __init__(self, x):$/;"	m	class:TreeLinkNode
+__init__	offerhelper.py	/^    def __init__(self, x):$/;"	m	class:TreeNode
 __merge	sorting.cpp	/^void __merge(vector<T> &vec, int l, int mid, int r)$/;"	f
 __mergeSort	sorting.cpp	/^void __mergeSort(vector<T> &vec, int l, int r)$/;"	f
 __partition	sorting.cpp	/^int __partition(std::vector<T> &vec, int l, int r)$/;"	f
+__post_order	offerhelper.py	/^def __post_order(root, ret):$/;"	f	file:
+__pre_order	offerhelper.py	/^def __pre_order(root, ret):$/;"	f	file:
 __quikcSort	sorting.cpp	/^void __quikcSort(std::vector<T> &vec, int l, int r)$/;"	f
 assertTest	5_replaceBlank.cpp	/^void assertTest(char *in, const char *out, int length)$/;"	f
 benchMark	6_printListFromTailToHead.cpp	/^void benchMark()$/;"	f
+bench_mark	20_isNumeric.py	/^def bench_mark():$/;"	f
+bench_mark	21_reOrderArray.py	/^def bench_mark():$/;"	f
 bench_mark	6_printListFromTailToHead.py	/^def bench_mark():$/;"	f
+bench_mark	7_reConstructBinaryTree.py	/^def bench_mark():$/;"	f
+bench_mark	8_getNext.py	/^def bench_mark():$/;"	f
 binarySearch	search.cpp	/^int binarySearch(std::vector<T> vec, T target)$/;"	f
 binarySearchRecursion	search.cpp	/^int binarySearchRecursion(std::vector<T> &vec, T target)$/;"	f
+check	13_movingCount.py	/^    def check(self, threshold, rows, cols, row, col, visited):$/;"	m	class:Solution
+cols	tmp.py	/^    cols = 4$/;"	v
 convert_linked_list_to_list	offerhelper.py	/^def convert_linked_list_to_list(list_node):$/;"	f
 createLinkedList	offerhelper.h	/^    ListNode *createLinkedList(std::vector<int> &vec) $/;"	f	namespace:Offer
 create_linked_list	offerhelper.py	/^def create_linked_list(li):$/;"	f
@@ -46,13 +72,21 @@ f2	test.cpp	/^    virtual void f2() {}$/;"	f	class:A
 find	4_find.cpp	/^bool find(int target, std::vector<vector<int> > &array)$/;"	f
 genRandomVector	offerhelper.h	/^    std::vector<int> genRandomVector(int n=10, int l=0, int r=10)$/;"	f	namespace:Offer
 gen_random_list	offerhelper.py	/^def gen_random_list(size=10, l=0, r=10):$/;"	f
-head	offerhelper.py	/^    head = create_linked_list([1, 2, 3])$/;"	v
+getDigitSum	13_movingCount.py	/^    def getDigitSum(self, number):$/;"	m	class:Solution
+getInstance	1_singleton.cpp	/^    static SingleTon& getInstance()$/;"	f	class:SingleTon
+hasPath	12_hasPath.py	/^    def hasPath(self, matrix, rows, cols, path):$/;"	m	class:Solution
 helper	6_printListFromTailToHead.py	/^    def helper(self, listNode, li):$/;"	m	class:Solution2
 i	tmp.h	/^    static int i;$/;"	m	namespace:TMP
+in_order	offerhelper.py	/^def in_order(root):$/;"	f
 insertionSort	sorting.cpp	/^void insertionSort(std::vector<T> &vec, int l, int r)$/;"	f
-li	offerhelper.py	/^    li = convert_linked_list_to_list(head)$/;"	v
-li	offerhelper.py	/^    li = gen_random_list()$/;"	v
-li	tmp.py	/^li = [1, 2, 3, 4, 5]$/;"	v
+isNumeric	20_isNumeric.py	/^    def isNumeric(self, s):$/;"	m	class:Solution
+it	tmp.py	/^    it = iter(li)$/;"	v
+judge	12_hasPath.py	/^    def judge(self, matrix, i, j, rows, cols, flag, path, k):$/;"	m	class:Solution
+li	12_hasPath.py	/^    li = [x for x in "abce"]$/;"	v	class:Solution
+li	12_hasPath.py	/^    li = [x for x in "abcesfcsadee"]$/;"	v	class:Solution
+li	tmp.py	/^    li = [1, 2, 3, 4, 5]$/;"	v
+li	tmp.py	/^    li = [x for x in range(1, 13)]$/;"	v
+main	1_singleton.cpp	/^int main(int argc, const char *argv[])$/;"	f
 main	3_duplicate.cpp	/^int main(int argc, char **argv)$/;"	f
 main	4_find.cpp	/^int main(int argc, char **argv)$/;"	f
 main	5_replaceBlank.cpp	/^int main(int argc, const char *argv[])$/;"	f
@@ -63,7 +97,11 @@ main	sorting.cpp	/^int main(int argc, const char *argv[])$/;"	f
 main	test.cpp	/^int main(int argc, const char *argv[])$/;"	f
 main	tmp.cpp	/^int main(int argc, const char *argv[])$/;"	f
 mergeSort	sorting.cpp	/^void mergeSort(vector<T> &vec)$/;"	f
+movingCount	13_movingCount.py	/^    def movingCount(self, threshold, rows, cols):$/;"	m	class:Solution
+movingCountCore	13_movingCount.py	/^    def movingCountCore(self, threshold, rows, cols, row, col, visited):$/;"	m	class:Solution
 next	offerhelper.h	/^    struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode
+post_order	offerhelper.py	/^def post_order(root):$/;"	f
+pre_order	offerhelper.py	/^def pre_order(root):$/;"	f
 printLinkedList	offerhelper.h	/^    void printLinkedList(ListNode *head)$/;"	f	namespace:Offer
 printListFromTailToHead	6_printListFromTailToHead.py	/^    def printListFromTailToHead(self, listNode):$/;"	m	class:Solution
 printListFromTailToHead	6_printListFromTailToHead.py	/^    def printListFromTailToHead(self, listNode):$/;"	m	class:Solution1
@@ -71,12 +109,24 @@ printListFromTailToHead	6_printListFromTailToHead.py	/^    def printListFromTail
 printListFromTailToHead	6_printListFromTailToHead.py	/^    def printListFromTailToHead(self, listNode):$/;"	m	class:Solution3
 printVec	offerhelper.h	/^    void printVec(std::vector<T> vec)$/;"	f	namespace:Offer
 quickSort	sorting.cpp	/^void quickSort(std::vector<T> &vec)$/;"	f
+reConstructBinaryTree	7_reConstructBinaryTree.py	/^    def reConstructBinaryTree(self, pre, tin):$/;"	m	class:Solution
+reOrderArray	21_reOrderArray.py	/^    def reOrderArray(self, array):$/;"	m	class:Solution
+reOrderArray	21_reOrderArray.py	/^    def reOrderArray(self, array):$/;"	m	class:Solution1
 replaceSpace	5_replaceBlank.cpp	/^	void replaceSpace(char *str,int length) {$/;"	f	class:Solution
 replaceSpace	5_replaceBlank.py	/^    def replaceSpace(self, s):$/;"	m	class:Solution
 res	5_replaceBlank.py	/^    res = Solution().replaceSpace('hello world')$/;"	v	class:Solution
 ret	3_duplicate.py	/^    ret = Solution().duplicate([2, 3, 1, 0, 2, 5, 3], dup)$/;"	v	class:Solution
+rows	tmp.py	/^    rows = 3$/;"	v
+setUp	offerhelpertest.py	/^    def setUp(self):$/;"	m	class:TreeTraverse
 staticFunc	tmp.h	/^static int staticFunc()$/;"	f
 test	18_deleteDuplication.py	/^def test(solution):$/;"	f
+test	20_isNumeric.py	/^def test(solution):$/;"	f
+test	21_reOrderArray.py	/^def test(solution):$/;"	f
 test	6_printListFromTailToHead.cpp	/^void test(unique_ptr<BaseSolution> pSolution)$/;"	f
 test	6_printListFromTailToHead.py	/^def test(solution):$/;"	f
+test	7_reConstructBinaryTree.py	/^def test(solution):$/;"	f
+test	8_getNext.py	/^def test(solution):$/;"	f
+test_in_order	offerhelpertest.py	/^    def test_in_order(self):$/;"	m	class:TreeTraverse
+test_post_order	offerhelpertest.py	/^    def test_post_order(self):$/;"	m	class:TreeTraverse
+test_pre_order	offerhelpertest.py	/^    def test_pre_order(self):$/;"	m	class:TreeTraverse
 val	offerhelper.h	/^    int val;$/;"	m	struct:ListNode
