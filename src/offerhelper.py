@@ -1,4 +1,5 @@
 import random
+import string
 
 
 # Class
@@ -44,6 +45,12 @@ def convert_linked_list_to_list(list_node):
         list_node = list_node.next
     return li
 
+def gen_totally_random_str(n=10, l=10):
+    li = []
+    for i in range(n):
+        li.append([random.choice(string.ascii_lowercase) for i in range(random.randint(1, l))])
+    return [''.join(x) for x in li]
+
 
 # Tree traverse
 def pre_order(root):
@@ -86,4 +93,7 @@ if __name__ == '__main__':
     head = create_linked_list([1, 2, 3])
     li = convert_linked_list_to_list(head)
     print(li)
+    str_list = gen_totally_random_str(20, 10)
+    for s in sorted(str_list):
+        print(s)
 
