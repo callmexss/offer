@@ -2,7 +2,7 @@
 
 ## 基础数据类型
 
-### 整形
+### 整型
 
 1. [以下代码运行结果为（）](./uint32_t1.cpp)
 
@@ -44,3 +44,40 @@ int main(int argc, char **argv)
     1. x -= x * x; -> x = 6 - 6 * 6 = -30
 
     2. x += x; -> x = -30 + (-30) = -60
+
+
+### 数组
+
+1. [以下程序的输出结果是（ ）。](./array.cpp)
+
+A. 31
+
+B. 13
+
+C. 10
+
+D. 20
+
+```cpp
+#include <stdio.h>
+
+#define N 20
+
+void fun(int a[], int n, int m)
+{  
+    int i, j;
+    for(i=m; i>=n; i--)
+        a[i+1] = a[i];
+}
+
+int main()
+{
+    int i, a[N] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    fun(a, 2, 9);
+    for(i=0; i<5; i++)
+        printf("%d", a[i]);
+    return 0;
+}
+```
+
+从第 3 个元素开始，后一个元素被前一个元素覆盖。{1, 2, 3, 3, 4, 5, ...}
